@@ -1,13 +1,13 @@
 function checkNumber() {
-  let answer = parseInt(prompt('Pick a number between 1 and 100'));
+  let answer = parseInt(prompt(`Pick a number between 1 and 100.`));
   if (isNaN(answer)) {
     answer = parseInt(
-      prompt(`That's not a number, pick a number between 1 and 100`)
+      prompt(`That's not a number, pick a number between 1 and 100.`)
     );
   } else if (answer < 1) {
-    answer = parseInt(prompt(`Number too low, pick a number between 1 and 100`));
+    answer = parseInt(prompt(`Number too low, pick a number between 1 and 100.`));
   } else if (answer > 100) {
-    answer = parseInt(prompt(`Number too high, pick a number between 1 and 100`));
+    answer = parseInt(prompt(`Number too high, pick a number between 1 and 100.`));
   }
 
   if (isNaN(answer) || answer < 1 || answer > 100) {
