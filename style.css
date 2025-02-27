@@ -286,3 +286,35 @@ img {
 footer {
   padding-block: var(--space-m);
 }
+
+/* end of design system */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding-block: var(--space-s);
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  font-size: var(--step--1);
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  font-weight: 700;
+}
+
+.logo img {
+  height: auto;
+  width: 1.3em;
+}
