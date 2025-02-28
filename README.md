@@ -1,3 +1,7 @@
-# 👶 FizzBuzz
+![The Odin Project](./img/favicon.svg)
 
-FizzBuzz is a group word game for children to teach them about division.
+# The Odin Project
+
+### Project: FizzBuzz
+
+Foundations Course
