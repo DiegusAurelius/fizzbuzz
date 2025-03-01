@@ -2,6 +2,6 @@
 
 # The Odin Project
 
-### Project: FizzBuzz
+### Exercise: FizzBuzz
 
 Foundations Course
